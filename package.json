@@ -1,0 +1,17 @@
+{
+  "name": "MsgLegion",
+  "version": "0.0.1",
+  "description": "Desktop Messaging Application to send Bulk SMS",
+  "main": "main.js",
+  "devDependencies": {
+    "electron": "^4.0.4"
+  },
+  "author": "MsgLegion",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "python-shell": "^1.0.7"
+  }
+}
