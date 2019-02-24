@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'regular';
+  src: url("../assets/font/WorkSans-Regular.ttf") format('truetype');
+}
+body{
+  font-family: 'regular';
+}
+.login-intro h1{
+    font-size: 35px;
+    font-weight: 100;
+}
+
+#email-illust{
+  width: 370px;
+}
+
+.login-intro h3{
+  font-size: 20px;
+  font-weight: 100;
+}
+.newLog{
+    background-color: #ffffff;
+    color: #5D65AB;
+    border-radius: 70px;
+    border-style: none;
+    border: 3px solid #5D65AB;
+    width: 180px;
+    height: 45px;
+    font-size: 20px;
+}
+.login-intro{
+  text-align: center;
+}
+
+.form h1{
+  font-size: 35px;
+  font-weight: 100;
+}
+
+#msgLogo{
+  width: 150px;
+  position: relative;
+  top: 10px;
+}
+
+form input{
+  width: 350px;
+  height: 45px;
+  display: block;
+  margin-bottom: 20px;
+  font-size: 20px;
+  padding: 5px 7px 5px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  background-color: #F1F1E6;
+}
+
+.logIn-button{
+  background-color: #5D65AB;
+  color: #ffffff;
+  border-radius: 70px;
+  border: none;
+  width: 180px;
+  height: 45px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+  margin-top: 60px;
+}
+.logIn-button:hover{
+  cursor: pointer;
+}
+.form{
+  text-align: center;
+  position: relative;
+  top: 60px;
+}
+form{
+  width: 500px;
+  margin: 5px auto;
+  position: relative;
+  top: 35px;
+}
+.container{
+  width: 880px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+button:hover{
+  cursor: pointer;
+}
