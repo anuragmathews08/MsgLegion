@@ -78,6 +78,7 @@ form input{
 }
 .logIn-button:hover{
   cursor: pointer;
+  transform: translateY(2px);
 }
 .form{
   text-align: center;
@@ -101,4 +102,5 @@ form{
 /* button hover styling */
 button:hover{
   cursor: pointer;
+  transform: translateY(2px);
 }
