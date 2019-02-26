@@ -1,23 +1,29 @@
+/* custom font for application */
 @font-face {
   font-family: 'regular';
   src: url("../assets/font/WorkSans-Regular.ttf") format('truetype');
 }
+/* body styling properties */
 body{
   font-family: 'regular';
+  margin: 0;
+  padding: 0;
 }
+/* welcome message heading */
 .login-intro h1{
     font-size: 35px;
     font-weight: 100;
 }
-
+/* illustration styling */
 #email-illust{
   width: 370px;
 }
-
+/* intro message  */
 .login-intro h3{
   font-size: 20px;
   font-weight: 100;
 }
+/* button for new signin/signup */
 .newLog{
     background-color: #ffffff;
     color: #5D65AB;
@@ -28,10 +34,12 @@ body{
     height: 45px;
     font-size: 20px;
 }
+/* into message styling */
 .login-intro{
   text-align: center;
 }
 
+/* form styling */
 .form h1{
   font-size: 35px;
   font-weight: 100;
@@ -82,6 +90,7 @@ form{
   position: relative;
   top: 35px;
 }
+/* main contianer styling */
 .container{
   width: 880px;
   margin: 50px auto;
@@ -89,6 +98,7 @@ form{
   justify-content: space-between;
   padding-left: 40px;
 }
+/* button hover styling */
 button:hover{
   cursor: pointer;
 }
