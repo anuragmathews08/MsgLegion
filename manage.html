@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/dashboard.css">
   <link rel="stylesheet" href="./css/general.css">
+  <link rel="stylesheet" href="./css/manage.css">
   <title>MsgLegion</title>
 </head>
 <body>
@@ -18,8 +19,8 @@
       <nav id="menu-link">
         <ul>
           <li class="heading">Admin Panel</li>
-          <li><a href="general-info.html" class="active">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="nav-icons active"
+          <li><a href="general-info.html">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="nav-icons"
               version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve">
               <g>
                 <g>
@@ -46,8 +47,8 @@
                     </g>
             </svg>
             General Info</a></li>
-          <li><a href="manage.html" class="nav-links">
-            <svg xmlns="http://www.w3.org/2000/svg" class="nav-icons" viewBox="0 0 75.1 114.525" x="0px" y="0px">
+          <li><a href="manage.html" class="nav-links active" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="nav-icons active" viewBox="0 0 75.1 114.525" x="0px" y="0px">
               <g data-name="Livello 2">
                 <g data-name="Livello 5">
                   <g data-name="Livello 2">
@@ -105,24 +106,23 @@
     <!--information section of dashboard-->
     <section id="info-section">
       <div class="header">
-          <h1>General Info</h1>
+          <h1>Manage</h1>
       </div>
       <div class="info-area">
         <div class="adminInfo">
+          <!-- add new customer box -->
           <div class="box">
-            <h3>Anurag Mathews</h3>
-            <p>anuragmathews619@gmail.com</p>
-            <p>Business : Toy Shop</p>
-          </div>
-        </div>
-        <div id="info">
-          <div class="box">
-            <h3>Total Sent Messages</h3>
-            <p>27</p>
-          </div>
-          <div class="box">
-            <h3>Total Customers</h3>
-            <p>50</p>
+            <h3>Add New Customer</h3>
+            <!-- form to add new customer -->
+            <form id="add-customer" method="post">
+              <label for="name">Name:</label>
+              <input type="text" placeholder="Ex:- Anurag Sharma" name="name">
+              <label for="phone">Phone No:</label>
+              <input type="text" placeholder="Ex:- 8269005650" name="phone">
+              <label for="email">Email:</label>
+              <input type="email" placeholder="Ex:- anuragsharma@gmail.com" name="email">
+              <input type="submit" value="Add" id="add-button">
+            </form>
           </div>
         </div>
       </div>

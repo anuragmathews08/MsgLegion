@@ -1,0 +1,40 @@
+#add-customer input[type="text"],input[type="email"]{
+  width: 250px;
+  height: 28px;
+  display: block;
+  margin-bottom: 13px;
+  font-size: 15px;
+  font-family: 'regular';
+  padding-left: 7px;
+  border: 0.7px solid #5D65AB;
+}
+#add-customer label{
+  display: block;
+  float: left;
+  margin-bottom: 7px;
+}
+#add-customer{
+  margin: 0 auto;
+  width: 260px;
+}
+.adminInfo .box{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+#add-button{
+  background-color: #5D65AB;
+  color: #ffffff;
+  border-radius: 70px;
+  border: none;
+  width: 120px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+#add-button:hover{
+  cursor: pointer;
+  transform: translateY(2px);
+}
