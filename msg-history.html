@@ -6,7 +6,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="./css/dashboard.css">
   <link rel="stylesheet" href="./css/general.css">
-  <link rel="stylesheet" href="./css/manage.css">
+  <link rel="stylesheet" href="./css/table.css">
+  <link rel="stylesheet" href="./css/msg-history.css">
   <title>MsgLegion</title>
 </head>
 <body>
@@ -47,8 +48,8 @@
                     </g>
             </svg>
             General Info</a></li>
-          <li><a href="manage.html" class="nav-links active" >
-            <svg xmlns="http://www.w3.org/2000/svg" class="nav-icons active" viewBox="0 0 75.1 114.525" x="0px" y="0px">
+          <li><a href="manage.html" class="nav-links" >
+            <svg xmlns="http://www.w3.org/2000/svg" class="nav-icons" viewBox="0 0 75.1 114.525" x="0px" y="0px">
               <g data-name="Livello 2">
                 <g data-name="Livello 5">
                   <g data-name="Livello 2">
@@ -82,8 +83,8 @@
         </ul>
         <ul>
           <li class="heading">History</li>
-          <li><a href="msg-history.html">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="nav-icons" id="msgHistory" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">
+          <li><a href="msg-history.html" class="active">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="nav-icons active" id="msgHistory" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" style="enable-background:new 0 0 100 100;" xml:space="preserve"><style type="text/css">
             	.st0{fill:none;stroke:#000000;stroke-miterlimit:10;}
             	.st1{fill:#FFFFFF;}
             	.st2{fill:none;}
@@ -106,23 +107,46 @@
     <!--information section of dashboard-->
     <section id="info-section">
       <div class="header">
-          <h1>Manage</h1>
+          <h1>Message History</h1>
       </div>
       <div class="info-area">
         <div class="adminInfo">
           <!-- add new customer box -->
           <div class="box">
-            <h3>Add New Customer</h3>
-            <!-- form to add new customer -->
-            <form id="add-customer" method="post">
-              <label for="name">Name:</label>
-              <input type="text" placeholder="Ex:- Anurag Sharma" name="name">
-              <label for="phone">Phone No:</label>
-              <input type="text" placeholder="Ex:- 8269005650" name="phone">
-              <label for="email">Email:</label>
-              <input type="email" placeholder="Ex:- anuragsharma@gmail.com" name="email">
-              <input type="submit" value="Add" id="add-button">
-            </form>
+            <table id="info-table">
+              <tr id="table-heading">
+                <th>Message Body</th>
+                <th>Date</th>
+              </tr>
+              <tr id="table-data">
+                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
+                <td>28/02/2019</td>
+              </tr>
+              <tr>
+                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
+                <td>28/02/2019</td>
+              </tr>
+              <tr>
+                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
+                <td>28/02/2019</td>
+              </tr>
+              <tr>
+                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
+                <td>28/02/2019</td>
+              </tr>
+              <tr>
+                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
+                <td>28/02/2019</td>
+              </tr>
+              <tr>
+                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
+                <td>28/02/2019</td>
+              </tr>
+              <tr>
+                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
+                <td>28/02/2019</td>
+              </tr>
+            </table>
           </div>
         </div>
       </div>

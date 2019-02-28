@@ -1,0 +1,45 @@
+/* styling the table  */
+.adminInfo .box{
+  top:0;
+  left: 17px;
+  width: 630px;
+  max-height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+}
+#table-heading th{
+  font-family: 'regular';
+  font-weight: 100;
+}
+#info-table{
+  width: 630px;
+  text-align: left;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+#table-heading{
+  background-color: #5D65AB;
+  color: #ffffff;
+  font-size: 18px;
+}
+#table-heading th:first-child{
+  width: 190px;
+}
+#info-table tr{
+  border-top: 1px solid #5D65AB;
+}
+#info-table tr:first-child{
+  border-top: 0;
+}
+tr#table-data{
+  border-top: 0;
+}
+table, tr, th,td{
+   border-collapse: collapse;
+   padding: 17px 2px 17px 10px;
+ }
+ table td{
+   font-size: 15px;
+ }

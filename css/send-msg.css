@@ -1,0 +1,19 @@
+.box h3{
+  float: left;
+}
+.adminInfo .box{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+form textarea{
+  width: 280px;
+  height: 100px;
+  float: left;
+  margin-left: -18px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  border: 1px solid #5D65AB;
+  font-family: 'regular';
+  padding: 7px;
+  resize: none;
+}

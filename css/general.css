@@ -16,7 +16,7 @@
 /* admin information box styling */
 .adminInfo .box{
   position: relative;
-  max-width: 300px;
+  width: 300px;
   top: 30px;
   left: 165px;
   height: auto;
