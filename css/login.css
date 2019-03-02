@@ -51,17 +51,45 @@ body{
   top: 10px;
 }
 
-form input{
+form input[type="email"],input[type="password"],input[type="text"]{
+  background: none;
+  border: none;
+  outline: none;
+  float: left;
+  margin-left: 10px;
+  padding: 0;
+  line-height: 59px;
+  font-size: 19px;
+}
+.search-box{
   width: 350px;
-  height: 45px;
-  display: block;
-  margin-bottom: 20px;
-  font-size: 20px;
-  padding: 5px 7px 5px 15px;
+  height: 60px;
+  background-color: #F1F1E6;
   margin-left: auto;
   margin-right: auto;
-  border: none;
-  background-color: #F1F1E6;
+  margin-bottom: 25px;
+}
+.last{
+  margin-bottom: 0px;
+}
+
+.input-icon{
+  float: left;
+  width: 32px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+.username{
+  float: left;
+  width: 21px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+svg.username{
+  fill: #636060;
+}
+svg.input-icon{
+  fill: #636060;
 }
 
 .logIn-button{
@@ -74,7 +102,6 @@ form input{
   font-size: 20px;
   text-align: center;
   font-weight: 100;
-  margin-top: 60px;
 }
 .logIn-button:hover{
   cursor: pointer;
@@ -89,7 +116,7 @@ form{
   width: 500px;
   margin: 5px auto;
   position: relative;
-  top: 35px;
+  top: 10px;
 }
 /* main contianer styling */
 .container{
