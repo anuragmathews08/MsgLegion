@@ -15,6 +15,9 @@
     <!--side menu section-->
     <section id="menu-section">
       <img src="./assets/images/MsgLegion.svg" alt="MsgLegion Logo" id="MsgLegion">
+      <div id="logo">
+        <img src="./assets/images/msglogo.png" alt="msglegion logo">
+      </div>
       <!--navigation for dashboard-->
       <nav id="menu-link">
         <ul>
@@ -98,7 +101,7 @@
         </ul>
         <ul>
           <!-- logout button -->
-          <li class="logOut-button">Log Out</li>
+          <li class="logOut-button" id="log-out">Log Out</li>
         </ul>
       </nav>
     </section>
@@ -109,6 +112,7 @@
           <h1>Manage</h1>
       </div>
       <div class="info-area">
+        <div id="success"><p>Customer Added Successfully</p></div>
         <div class="adminInfo">
           <!-- add new customer box -->
           <div class="box">
@@ -116,11 +120,11 @@
             <!-- form to add new customer -->
             <form id="add-customer" method="post">
               <label for="name">Name:</label>
-              <input type="text" placeholder="Ex:- Anurag Sharma" name="name">
+              <input id="cust-name" type="text" placeholder="Ex:- Anurag Sharma" name="name">
               <label for="phone">Phone No:</label>
-              <input type="text" placeholder="Ex:- 8269005650" name="phone">
+              <input id="phone" type="text" placeholder="Ex:- 8269005650" name="phone">
               <label for="email">Email:</label>
-              <input type="email" placeholder="Ex:- anuragsharma@gmail.com" name="email">
+              <input id="email" type="email" placeholder="Ex:- anuragsharma@gmail.com" name="email">
               <input type="submit" value="Add" id="add-button">
             </form>
           </div>
@@ -128,5 +132,9 @@
       </div>
     </section>
   </div>
+  <script>
+    require("./scripts/manage.js");
+    require("./scripts/log-out.js");
+  </script>
 </body>
 </html>

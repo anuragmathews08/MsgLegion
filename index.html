@@ -20,18 +20,26 @@
     <!-- login input area -->
     <section class="form">
       <h1>Sign in to <img src="./assets/images/MsgLegion.svg" alt="Logo" id="msgLogo"></h1>
-      <form class="logForm" method="POST">
+      <div id="logo">
+        <img src="./assets/images/msglogo.png" alt="msglegion logo">
+      </div>
+      <div id="error">
+      </div>
+      <form id="logForm" method="POST">
         <div class="search-box">
           <svg xmlns="http://www.w3.org/2000/svg" class="input-icon" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><g><path d="M83.762,17.058H16.238C10.042,17.058,5,22.099,5,28.295v43.408c0,6.197,5.042,11.239,11.238,11.239h67.523   C89.958,82.942,95,77.9,95,71.703V28.295C95,22.099,89.958,17.058,83.762,17.058z M16.238,20.241h67.523   c2.854,0,5.359,1.496,6.79,3.74L55.921,56.688c-3.266,3.082-8.576,3.082-11.841,0L9.448,23.981   C10.88,21.737,13.385,20.241,16.238,20.241z M8.261,72.761c-0.045-0.347-0.077-0.698-0.077-1.058V28.295   c0-0.358,0.031-0.71,0.077-1.057L32.361,50L8.261,72.761z M83.762,79.758H16.238c-2.854,0-5.359-1.495-6.79-3.739L34.68,52.189   l7.216,6.813c2.233,2.111,5.169,3.167,8.104,3.167s5.872-1.056,8.105-3.167l7.215-6.813l25.231,23.829   C89.121,78.263,86.615,79.758,83.762,79.758z M91.816,28.295v43.408c0,0.361-0.032,0.711-0.077,1.058L67.639,50l24.101-22.76   C91.784,27.586,91.816,27.938,91.816,28.295z"/></g></svg>
-          <input type="email" placeholder="Email">
+          <input type="email" placeholder="Email" id="email" required>
         </div>
         <div class="search-box">
           <svg xmlns="http://www.w3.org/2000/svg"  class="input-icon" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125" enable-background="new 0 0 100 100" xml:space="preserve"><path d="M72.34,40.365h-5.215V29.558c0-9.442-7.683-17.125-17.125-17.125s-17.125,7.683-17.125,17.125v10.808H27.66  c-3.584,0-6.5,2.916-6.5,6.5v34.202c0,3.584,2.916,6.5,6.5,6.5h44.68c3.584,0,6.5-2.916,6.5-6.5V46.865  C78.84,43.281,75.924,40.365,72.34,40.365z M35.875,29.558c0-7.788,6.337-14.125,14.125-14.125s14.125,6.337,14.125,14.125v10.808  h-28.25V29.558z M75.84,81.067c0,1.93-1.57,3.5-3.5,3.5H27.66c-1.93,0-3.5-1.57-3.5-3.5V46.865c0-1.93,1.57-3.5,3.5-3.5h44.68  c1.93,0,3.5,1.57,3.5,3.5V81.067z M50,55.269c-2.781,0-5.044,2.263-5.044,5.044c0,2.256,1.498,4.147,3.544,4.79v7.065  c0,0.828,0.672,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-7.065c2.046-0.643,3.544-2.534,3.544-4.79C55.044,57.531,52.781,55.269,50,55.269z   M50,62.356c-1.127,0-2.044-0.917-2.044-2.044s0.917-2.044,2.044-2.044s2.044,0.917,2.044,2.044S51.127,62.356,50,62.356z"/></svg>
-          <input type="password" placeholder="Password">
+          <input type="password" placeholder="Password" id="password" required>
         </div>
           <input type="submit" value="Sign In" class="logIn-button">
       </form>
     </section>
   </div>
+  <script>
+      require("./scripts/login.js");
+  </script>
 </body>
 </html>

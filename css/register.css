@@ -9,3 +9,19 @@
 form{
   top: 7px;
 }
+#success{
+  width: 360px;
+  height: auto;
+  background-color: green;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  /* padding-left: 5px; */
+  /* padding-right: 5px; */
+  /* padding-top: 10px; */
+}

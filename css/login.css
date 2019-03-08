@@ -60,6 +60,7 @@ form input[type="email"],input[type="password"],input[type="text"]{
   padding: 0;
   line-height: 59px;
   font-size: 19px;
+  width: 280px;
 }
 .search-box{
   width: 350px;
@@ -130,4 +131,14 @@ form{
 button:hover{
   cursor: pointer;
   transform: translateY(2px);
+}
+
+#error{
+  color: red;
+}
+#logo img{
+  width: 100px;
+  position: absolute;
+  top: 5px;
+  right: 22px;
 }

@@ -16,6 +16,9 @@
     <!--side menu section-->
     <section id="menu-section">
       <img src="./assets/images/MsgLegion.svg" alt="MsgLegion Logo" id="MsgLegion">
+      <div id="logo">
+        <img src="./assets/images/msglogo.png" alt="msglegion logo">
+      </div>
       <!--navigation for dashboard-->
       <nav id="menu-link">
         <ul>
@@ -99,7 +102,7 @@
         </ul>
         <ul>
           <!-- logout button -->
-          <li class="logOut-button">Log Out</li>
+          <li class="logOut-button" id="log-out">Log Out</li>
         </ul>
       </nav>
     </section>
@@ -118,39 +121,15 @@
                 <th>Message Body</th>
                 <th>Date</th>
               </tr>
-              <tr id="table-data">
-                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
-                <td>28/02/2019</td>
-              </tr>
-              <tr>
-                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
-                <td>28/02/2019</td>
-              </tr>
-              <tr>
-                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
-                <td>28/02/2019</td>
-              </tr>
-              <tr>
-                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
-                <td>28/02/2019</td>
-              </tr>
-              <tr>
-                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
-                <td>28/02/2019</td>
-              </tr>
-              <tr>
-                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
-                <td>28/02/2019</td>
-              </tr>
-              <tr>
-                <td>This is a Test Message Body Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, consequuntur!</td>
-                <td>28/02/2019</td>
-              </tr>
             </table>
           </div>
         </div>
       </div>
     </section>
   </div>
+  <script>
+      require("./scripts/msg-history.js");
+      require("./scripts/log-out.js");
+    </script>
 </body>
 </html>

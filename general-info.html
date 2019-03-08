@@ -14,6 +14,9 @@
     <!--side menu section-->
     <section id="menu-section">
       <img src="./assets/images/MsgLegion.svg" alt="MsgLegion Logo" id="MsgLegion">
+      <div id="logo">
+        <img src="./assets/images/msglogo.png" alt="msglegion logo">
+      </div>
       <!--navigation for dashboard-->
       <nav id="menu-link">
         <ul>
@@ -97,7 +100,7 @@
         </ul>
         <ul>
           <!-- logout button -->
-          <li class="logOut-button">Log Out</li>
+          <li class="logOut-button" id="log-out">Log Out</li>
         </ul>
       </nav>
     </section>
@@ -110,23 +113,27 @@
       <div class="info-area">
         <div class="adminInfo">
           <div class="box">
-            <h3>Anurag Mathews</h3>
-            <p>anuragmathews619@gmail.com</p>
-            <p>Business : Toy Shop</p>
+            <h3 id="admin-name"></h3>
+            <p id="admin-mail"></p>
+            <p id="admin-business"></p>
           </div>
         </div>
         <div id="info">
           <div class="box">
             <h3>Total Sent Messages</h3>
-            <p>27</p>
+            <p id="msg-count"></p>
           </div>
           <div class="box">
             <h3>Total Customers</h3>
-            <p>50</p>
+            <p id="cust-count"></p>
           </div>
         </div>
       </div>
     </section>
   </div>
+  <script>
+    require("./scripts/general-info.js");
+    require("./scripts/log-out.js");
+  </script>
 </body>
 </html>

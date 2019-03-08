@@ -139,3 +139,11 @@ li a:hover,li:hover svg path{
   fill:#062134;
   color: #062134;
 }
+
+#logo img{
+  width: 80px;
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
