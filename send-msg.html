@@ -16,6 +16,9 @@
     <!--side menu section-->
     <section id="menu-section">
       <img src="./assets/images/MsgLegion.svg" alt="MsgLegion Logo" id="MsgLegion">
+      <div id="logo">
+        <img src="./assets/images/msglogo.png" alt="msglegion logo">
+      </div>
       <!--navigation for dashboard-->
       <nav id="menu-link">
         <ul>
@@ -99,7 +102,7 @@
         </ul>
         <ul>
           <!-- logout button -->
-          <li class="logOut-button">Log Out</li>
+          <li class="logOut-button" id="log-out">Log Out</li>
         </ul>
       </nav>
     </section>
@@ -110,19 +113,24 @@
           <h1>Messaging</h1>
       </div>
       <div class="info-area">
+          <div id="success"><p>Message has been sent to all the customers</p></div>
         <div class="adminInfo">
           <!-- add new customer box -->
           <div class="box">
             <h3>Write your Message:</h3>
             <!-- form to add new customer -->
             <form id="add-customer" method="post">
-              <textarea name="messageBody" placeholder="Type your message here..."></textarea>
-              <input type="submit" value="Send to All" id="add-button">
+              <textarea id="message" name="messageBody" placeholder="Type your message here..."></textarea>
+              <input  type="submit" value="Send to All" id="add-button">
             </form>
           </div>
         </div>
       </div>
     </section>
   </div>
+  <script>
+      require("./scripts/send-msg.js");
+      require("./scripts/log-out.js");
+    </script>
 </body>
 </html>
